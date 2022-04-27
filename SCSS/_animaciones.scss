@@ -1,0 +1,48 @@
+/*Estas son las animaciones en SASS*/
+.animacion1{
+    animation-name: iconoSecu;
+    animation-duration: 1.5s;
+}
+.animacion2{
+    animation-name: iconoSecu;
+    animation-duration: 2s;
+}
+.animacion3{
+    animation-name: iconoSecu;
+    animation-duration: 2.5s;
+}
+.animacion4{
+    animation-name: iconoSecu;
+    animation-duration: 3s;
+}
+.animacion5{
+    animation-name: iconoSecu;
+    animation-duration: 3.5s;
+}
+.animacionLogo{
+    animation-name: iconoSecu2;
+    animation-duration: 3s;
+}
+@keyframes iconoSecu {
+    from{
+        transform: translateX(1000px);
+        opacity: 0;
+    }
+
+    to{
+        transform:translateX(0px) ;
+        opacity: 100;
+    }
+}
+
+@keyframes iconoSecu2 {
+    from{
+        transform: translateX(-500px);
+        opacity: 0;
+    }
+
+    to{
+        transform:translateX(0px) ;
+        opacity: 100;
+    }
+}
